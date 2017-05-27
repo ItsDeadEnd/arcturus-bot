@@ -21,6 +21,6 @@ module.exports = class Roll extends commando.Command{
 
     async run(msg, args){
         var o = Math.floor(Math.random()*args['size'] + 1);
-        return msg.reply('You rolled a ' + o + ' on a D'+args['size']+'!');
+        return msg.reply('You rolled a ' + Math.abs(o) + ' on a D'+Math.abs(args['size'])+'!');
     }
 }
