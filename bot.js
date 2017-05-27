@@ -10,6 +10,7 @@ const bot = new commando.Client({owner: '225409009941872640', commandPrefix: '-'
 bot.registry
     //register all command groups here
     .registerGroup('misc', 'Miscellaneous commands')
+    .registerGroup('math', 'Math commands')
     //add default commands (like help)
     .registerDefaults()
     //add the file in which individual commands will be written
