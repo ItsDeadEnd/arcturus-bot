@@ -1,0 +1,23 @@
+{
+  "name": "arcturus-bot",
+  "version": "1.0.0",
+  "description": "a simple bot for discord",
+  "main": "bot.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsDeadEnd/arcturus-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsDeadEnd/arcturus-bot/issues"
+  },
+  "homepage": "https://github.com/ItsDeadEnd/arcturus-bot#readme"
+}
