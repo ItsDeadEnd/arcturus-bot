@@ -27,6 +27,6 @@ module.exports = class sum extends commando.Command{
 
     async run(msg, args){
         var sum = args['num1'] + args['num2'];
-        return 'the sum of ' + args['num1'] + ' and ' + args['num2'] + ' is ' + sum;
+        return msg.reply('the sum of ' + args['num1'] + ' and ' + args['num2'] + ' is ' + sum);
     }
 }
