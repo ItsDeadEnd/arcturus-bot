@@ -22,7 +22,7 @@ module.exports = class sum extends commando.Command{
                                     type: 'float'
                                 }
                             ]
-        });
+                        });
     }
 
     async run(msg, args){
