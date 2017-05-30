@@ -1,11 +1,10 @@
 {
   "name": "arcturus-bot",
-  "version": "1.0.0",
+  "version": "WIP",
   "description": "a simple bot for discord",
   "main": "bot.js",
   "dependencies": {
-    "discord.js": "^11.1.0",
-    "discord.js-commando": "^0.9.0"
+
   },
   "devDependencies": {},
   "scripts": {
@@ -15,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/ItsDeadEnd/arcturus-bot.git"
   },
-  "author": "",
+  "author": "ItsDeadEnd",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ItsDeadEnd/arcturus-bot/issues"
