@@ -9,6 +9,11 @@ module.exports = class Wolfram extends commando.Command{
                             memberName: 'wolfram',
                             description: 'Ask WolframAlpha a question',
                             examples: ['wolfram 2*2']
+                            args:[{
+                                key: 'query',
+                                prompt: 'The question to be asked.',
+                                type: 'string'
+                                }]
                         });
     }
 
