@@ -29,3 +29,5 @@ bot.registry
 
 //login with token (you should probably do somthing about this)
 bot.login(token);
+
+//eric wuz here ecsdee
