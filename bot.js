@@ -6,6 +6,7 @@ const ini = require('ini');
 const fs = require('fs');
 
 //get options from file
+console.log("getting settings from file.")
 var options = ini.parse(fs.readFileSync('./options.ini', 'utf-8'));
 
 //assign options to variables
@@ -14,9 +15,11 @@ var oid = options.owner_id;
 var prefix = options.command_prefix;
 
 //initialize client var
+console.log("initializing client.");
 const bot = new commando.Client({owner: oid, commandPrefix: prefix});
 
 //manage command registry
+console.log("registering commands");
 bot.registry
     //register all command groups here
     .registerGroup('misc', 'Miscellaneous commands')
@@ -28,6 +31,7 @@ bot.registry
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 //login with token (you should probably do somthing about this)
+console.log("logging in.");
 bot.login(token);
 
-//eric wuz here ecsdee
+console.log("success!");
