@@ -1,14 +1,20 @@
 # arcturus-bot
 a bot for discord.
 
-to run this bot, clone the project and install node.js if you don't have it already. in the options.ini file add yout bot token and owner id and change the command prefix to what you want it to be.
+to run this bot, clone the project and install node.js if you don't have it already.
 
-then in the root of the project folder run:
+ensure you are in the root of the project folder 
 
-```bash
-node --harmony .
+before running, you must create a file called options.ini containing your bot info:
+```ini
+bot_token = YOUR_BOT_TOKEN_HERE
+owner_id = YOUR_DISCORD_ID_HERE
+command_prefix = -
 ```
 
-and the bot will run!
+to start, run:
+```console
+node --harmony .
+```
 
 have fun.
