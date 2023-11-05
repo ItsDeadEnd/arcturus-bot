@@ -30,7 +30,6 @@ bot.registry
     //add the file in which individual commands will be written
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
-//login with token (you should probably do somthing about this)
 console.log("logging in.");
 bot.login(token);
 
